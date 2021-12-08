@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Detalle Domicilio</title>
+</head>
+<body>
+  <h1>Domicilio {{domicilio.id}}</h1>
+  <div>
+    <p>Calle: {{domicilio.calle}}</p>
+    <p>No. Calle: {{domicilio.no_calle}}</p>
+    <p>Pais: {{domicilio.pais}}</p>
+      <a href="{% url 'domicilios' %}">Regresar al Inicio</a>
+  </div>
+
+</body>
+</html>
